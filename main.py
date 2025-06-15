@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
-DATABASE_URL = "postgresql://tododb_psm0_user:52rbYsY71itHjOYLB3uTnEMsHjsBOuRI@dpg-cvh8dj5ds78s73e2mti0-a/tododb_psm0"
+DATABASE_URL = "postgresql://tododb_kpbr_user:MLWFauJkS5ovkrISseoWpLgbsVPmzHna@dpg-d17c79p5pdvs73872jsg-a/tododb_kpbr"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
